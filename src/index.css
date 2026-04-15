@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+
+
+.mono {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+
+.link-accent {
+  text-decoration: underline;
+  text-decoration-color: #d1d5db;
+  text-underline-offset: 4px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+.link-accent:hover {
+  color: #4f46e5;
+  text-decoration-color: #4f46e5;
+}
